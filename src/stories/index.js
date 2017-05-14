@@ -9,9 +9,9 @@ stories.addDecorator(withKnobs)
 
 stories.add('All props', () => (
     <TaggyJr
-        text='John'
-        type='NAME'
-        color={{r: 120, g: 240, b: 90}}
+        text='React'
+        type='TAGGY JR'
+        color={{r: 250, g: 128, b: 114}}
     />
 ))
 

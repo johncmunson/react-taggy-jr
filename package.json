@@ -1,11 +1,30 @@
 {
   "name": "react-taggy-jr",
-  "version": "0.0.2",
-  "description": "React Taggy Jr Component",
+  "version": "0.0.3",
+  "description": "A simple zero-dependency React component for tagging a user-defined entity. (Little bro to React Taggy)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/you/repo.git"
+    "url": "https://github.com/johncmunson/react-taggy-jr.git"
   },
+  "bugs": {
+    "url": "https://github.com/johncmunson/react-taggy-jr/issues"
+  },
+  "keywords": [
+    "react",
+    "ner",
+    "nlp",
+    "entity",
+    "entities",
+    "react-component",
+    "component",
+    "natural",
+    "language",
+    "natural-language",
+    "named-entity-recognition",
+    "recognition",
+    "tag",
+    "keyword"
+  ],
   "license": "BSD",
   "scripts": {
     "prepublish": ". ./.scripts/prepublish.sh",
