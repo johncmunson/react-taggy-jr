@@ -1,6 +1,6 @@
 import React from 'react'
 
-const TaggyJr = ({ text = '', type = '', color = {r: 220, g: 220, b: 220}}) => (
+const TaggyJr = ({ text = '', type = '', color = {r: 220, g: 220, b: 220} }) => (
     <mark
         style={{
             padding: '0.25em 0.35em',

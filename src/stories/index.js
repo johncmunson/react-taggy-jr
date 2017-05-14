@@ -8,7 +8,7 @@ const stories = storiesOf('React Taggy Jr', module)
 stories.addDecorator(withKnobs)
 
 stories.add('All props', () => (
-    <Taggy
+    <TaggyJr
         text='John'
         type='NAME'
         color={{r: 120, g: 240, b: 90}}
@@ -16,11 +16,11 @@ stories.add('All props', () => (
 ))
 
 stories.add('No props', () => (
-    <Taggy />
+    <TaggyJr />
 ))
 
 stories.add('No Color', () => (
-    <Taggy
+    <TaggyJr
         text='John'
         type='NAME'
     />
