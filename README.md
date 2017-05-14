@@ -1,6 +1,6 @@
 ![react-taggy-jr](./images/taggyjr.jpg "React Taggy Jr")
 
-#### A simple zero-dependency React component for tagging a user-defined entity.
+#### A simple zero-dependency React component for tagging a user-defined entity. Little bro to [React Taggy](https://github.com/johncmunson/react-taggy).
 
 ## Demo
 Visit the [demo page](https://johncmunson.github.io/react-taggy-jr/) and click on the components on the left side of the page.
