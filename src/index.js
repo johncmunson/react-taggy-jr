@@ -23,26 +23,28 @@ const TaggyJr = ({ text = '', type = '', color = {r: 220, g: 220, b: 220} }) => 
         }}
     >
         {text}
-        <span
-            style={{
-                boxSizing: 'border-box',
-                fontSize: '0.6em',
-                lineHeight: '1',
-                padding: '0.35em',
-                borderRadius: '0.35em',
-                textTransform: 'uppercase',
-                display: 'inline-block',
-                verticalAlign: 'middle',
-                margin: '0px 0px 0.1rem 0.5rem',
-                background: `rgb(
-                    ${color.r},
-                    ${color.g},
-                    ${color.b}
-                )`
-            }}
-        >
-            {type}
-        </span>
+        {type === '' ? null : (
+            <span
+                style={{
+                    boxSizing: 'border-box',
+                    fontSize: '0.6em',
+                    lineHeight: '1',
+                    padding: '0.35em',
+                    borderRadius: '0.35em',
+                    textTransform: 'uppercase',
+                    display: 'inline-block',
+                    verticalAlign: 'middle',
+                    margin: '0px 0px 0.1rem 0.5rem',
+                    background: `rgb(
+                        ${color.r},
+                        ${color.g},
+                        ${color.b}
+                    )`
+                }}
+            >
+                {type}
+            </span>
+        )}
     </mark>
 )
 

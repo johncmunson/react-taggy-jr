@@ -15,6 +15,13 @@ stories.add('All props', () => (
     />
 ))
 
+stories.add('No type', () => (
+    <TaggyJr
+        text='React'
+        color={{r: 250, g: 128, b: 114}}
+    />
+))
+
 stories.add('No props', () => (
     <TaggyJr />
 ))

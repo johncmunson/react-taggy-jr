@@ -1,6 +1,6 @@
 {
   "name": "react-taggy-jr",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A simple zero-dependency React component for tagging a user-defined entity. (Little bro to React Taggy)",
   "repository": {
     "type": "git",
